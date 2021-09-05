@@ -1,6 +1,6 @@
 # IPTV-Tools
 
-A collection of scripts I'm using for a better IPTV experience.
+A collection of scripts I have created for a better IPTV experience.
 
 m3usplitter - is a small python script to split a M3U file in multiple files by group
 
