@@ -14,8 +14,8 @@ iptv-channels.bash - download and check multiple m3u files in an directory
 
 	iptv-channels.bash
 
-1.  Download my IPTV-channel collection from my playlist repository
+1.	Download my IPTV-channel collection from my playlist repository
 	https://github.com/lakeconstance78/IPTV-channels
-2.	Download m3u channel lists defined below
+2.	Download m3u channel lists defined in script.
 3.	Checks every links in all m3u channel lists and safe them under *_checked.
 	The checking tool is used from https://github.com/FutureSharks/iptv-stream-cleaner	
