@@ -32,9 +32,10 @@ print("processing: " + args.M3UINPUT)
 print("----------------------------------------------")
 
 for line in file:
-    CHECK = re.search('group-title="(.*)"', line)
+    PATTERN = 'group-title="\s*((?:\w(?!\s+")+|\s(?!\s*"))+\w)\s*"'
+    CHECK = re.search(PATTERN, line)
     if CHECK: 
-        GROUPNAME = re.search('group-title="(.*)"', line).group(1)
+        GROUPNAME = re.search(PATTERN, line).group(1)
     if GROUPNAME:
         FILENAME = GROUPNAME + ".m3u"
     else: FILENAME = "Emptygroup.m3u"
