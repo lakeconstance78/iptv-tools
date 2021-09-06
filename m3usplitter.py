@@ -16,6 +16,7 @@ import argparse
 from io import open
 import time
 import os
+import string
 
 CHECK = 0
 GROUPNAME = 0
@@ -32,12 +33,17 @@ print("processing: " + args.M3UINPUT)
 print("----------------------------------------------")
 
 for line in file:
+    #PATTERN = 'group-title="(.*)"'
     PATTERN = 'group-title="\s*((?:\w(?!\s+")+|\s(?!\s*"))+\w)\s*"'
     CHECK = re.search(PATTERN, line)
     if CHECK: 
         GROUPNAME = re.search(PATTERN, line).group(1)
     if GROUPNAME:
         FILENAME = GROUPNAME + ".m3u"
+        FILENAME = FILENAME.replace("'","")
+        FILENAME = FILENAME.replace("USA","United States")
+        FILENAME = FILENAME.replace("UK","United Kingdom")
+        FILENAME = string.capwords(FILENAME)
     else: FILENAME = "Emptygroup.m3u"
     with open(FILENAME,'a', encoding='utf-8') as FILE:
         FILE.write(line)
@@ -45,7 +51,7 @@ for line in file:
         CONTENT = FILE.read()
         FIRST = CONTENT.split('\n', 1)[0]
         if '#EXTM3U' != FIRST:
-            print(FILENAME + "-> #EXTM3U does not exists -> insert in line 1")
-            with open("tempfile",'w', encoding='utf-8') as t:
+            print(FILENAME + " -> #EXTM3U does not exists -> insert in line 1")
+            with open(FILENAME+'.tempfile','w', encoding='utf-8') as t:
                 t.write('#EXTM3U\n' + CONTENT)
-            os.rename("tempfile", FILENAME)
+            os.rename(FILENAME+'.tempfile', FILENAME)
