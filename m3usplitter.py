@@ -35,10 +35,6 @@ MECOUNT = 0
 SORTCOUNT = 0
 SOCOUNT = 0
 
-print("M3U-Splitter Splits M3U file in files by group")
-print("----------------------------------------------")
-TIMESTART = datetime.datetime.utcnow()
-
 # READ INPUT FILE
 parser = argparse.ArgumentParser()
 parser.add_argument('M3UINPUT')
