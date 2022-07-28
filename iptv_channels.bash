@@ -10,7 +10,7 @@
 #					The checking tool is used from
 #					https://github.com/FutureSharks/iptv-stream-cleaner	
 # 					
-# requirements: bash
+# requirements: bash, pip, m3u8
 #
 # command line: bash iptv_channels.bash
 #				
@@ -39,7 +39,6 @@ rm iptv-channels -r
 mkdir iptv-channels
 
 wget https://raw.githubusercontent.com/FutureSharks/iptv-stream-cleaner/master/stream-cleaner.py -O ./iptv-channels/stream-cleaner.py
-pip install m3u8
 
 echo "--------------------------------------------------------------------------------"
 #git clone https://github.com/lakeconstance78/iptv-channels.git
