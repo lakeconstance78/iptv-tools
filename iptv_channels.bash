@@ -26,7 +26,7 @@ M3U_PLAYLIST_1=https://iptv-org.github.io/iptv/index.country.m3u
 
 #https://github.com/Free-TV/IPTV
 M3U_PLAYLIST_2=https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
-https://github.com/jnk22/kodinerds-iptv
+#https://github.com/jnk22/kodinerds-iptv
 M3U_PLAYLIST_3=http://bit.ly/kn-clean
 #https://github.com/hayatiptv/iptv
 M3U_PLAYLIST_4=https://tinyurl.com/skaae8k
@@ -39,6 +39,7 @@ rm iptv-channels -r
 mkdir iptv-channels
 
 wget https://raw.githubusercontent.com/FutureSharks/iptv-stream-cleaner/master/stream-cleaner.py -O ./iptv-channels/stream-cleaner.py
+pip install m3u8
 
 echo "--------------------------------------------------------------------------------"
 #git clone https://github.com/lakeconstance78/iptv-channels.git
