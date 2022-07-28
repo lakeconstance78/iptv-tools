@@ -2,8 +2,8 @@
 # iptv_channels.bash, by lakeconstance78@wolke7.net
 #
 # this script: 
-# 				1.  Download my IPTV-channel collection from my playlist repository
-#					https://github.com/lakeconstance78/IPTV-channels
+# 				(1.  Download my IPTV-channel collection from my playlist repository
+#					https://github.com/lakeconstance78/IPTV-channels) -> deactivated
 #				2.	Download m3u channel lists defined below
 #				3.	Checks every links in all m3u channel lists and safe them
 #					under *_checked.
