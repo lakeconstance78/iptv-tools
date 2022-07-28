@@ -36,6 +36,10 @@ TIMEOUT=10.0
 
 rm iptv-channels -r
 
+mkdir iptv-channels
+
+wget https://raw.githubusercontent.com/FutureSharks/iptv-stream-cleaner/master/stream-cleaner.py -O ./iptv-channels/stream-cleaner.py
+
 echo "--------------------------------------------------------------------------------"
 #git clone https://github.com/lakeconstance78/iptv-channels.git
 
