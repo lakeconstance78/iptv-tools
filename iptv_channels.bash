@@ -34,7 +34,7 @@ M3U_PLAYLIST_4=https://tinyurl.com/skaae8k
 #TIMEOUT
 TIMEOUT=10.0
 
-rm iptv-channels -r
+#rm iptv-channels -r
 
 mkdir iptv-channels
 
