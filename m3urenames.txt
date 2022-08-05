@@ -1,0 +1,76 @@
+.*Congo*,Congo
+.*Germany.*,Germany
+Brazil.*,Brazil
+Canada.*,Canada
+Ex-yug,Ex-Yugoslavia
+France.*,France
+Great Britain.*,United Kingdom
+Luxemburg,Luxembourg
+Mexico.*,Mexico
+Spain.*,Spain
+.*USA.*,United States
+^(?!.*Nord Korea).*Korea,South-Korea
+^(?!.*Ukraine).*UK.*,United Kingdom
+iptv-ae.*,United Arab Emirates
+iptv-al.*,Albania
+iptv-at.*,Austria
+iptv-au.*,Australia
+iptv-ca.*,Canada
+iptv-ch.*,Switzerland
+iptv-de.*,Germany
+iptv-es.*,Spain
+iptv-fo.*,Faroe Islands
+iptv-fr.*,France
+iptv-ie.*,Ireland
+iptv-ir.*,Iran
+iptv-it.*,Italy
+iptv-jm.*,Jemen
+iptv-jm.*,Jemen
+iptv-jp.*,Japan
+iptv-mk.*,Macedonia
+iptv-nl.*,Netherlands
+iptv-nz.*,New Zealand
+iptv-qa.*,Qatar
+iptv-ro.*,Romania
+iptv-sg.*,Singapore
+iptv-sw.*,Sweden
+iptv-tr.*,Turkey
+iptv-uk.*,United Kingdom
+iptv-us.*,United States
+iptv-ru.*,Russiaiptv-id.*,Indonesia
+radio-ae.*,United Arab Emirates
+radio-al.*,Albania
+radio-at.*,Austria
+radio-au.*,Australia
+radio-ca.*,Canada
+radio-ch.*,Switzerland
+radio-de.*,Germany
+radio-es.*,Spain
+radio-fo.*,Faroe Islands
+radio-fr.*,France
+radio-ie.*,Ireland
+radio-ir.*,Iran
+radio-it.*,Italy
+radio-jm.*,Jemen
+radio-jm.*,Jemen
+radio-jp.*,Japan
+radio-mk.*,Macedonia
+radio-nl.*,Netherlands
+radio-nz.*,New Zealand
+radio-qa.*,Qatar
+radio-ro.*,Romania
+radio-sg.*,Singapore
+radio-sw.*,Sweden
+radio-tr.*,Turkey
+radio-uk.*,United Kingdom
+radio-us.*,United States
+radio-ru.*,Russia
+radio-id.*,Indonesia
+radio-pl.*,Poland
+Newzealand, New Zealand
+'Germany;dokus + Wissen', Germany
+'Great Britain;life + Style', United Kingdom
+'Usa;gaming + Anime', United States
+'Usa;home + Diy', United States
+'Usa;news + Opinion', United States
+gem online, Turkey
